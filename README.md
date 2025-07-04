@@ -17,7 +17,7 @@ Conventional neuromorphic circuit simulations using tools like **Cadence** are h
 - 🔧 **Customizable**: Spike shape and response frequency are configurable using polynomial fitting.
 
 ## Project Structure
-
+```bash
 /lif-neuron-matlab
 ├── lif_neuron_simulation.m # Main script for simulation
 ├── interpolation_module.m # Handles data interpolation (Cadence to MATLAB)
@@ -25,6 +25,7 @@ Conventional neuromorphic circuit simulations using tools like **Cadence** are h
 ├── data/
 │ └── cadence_data.csv # Example input from Cadence
 └── README.md
+```
 ## How to Use
 
 1. Clone or download this repository.
