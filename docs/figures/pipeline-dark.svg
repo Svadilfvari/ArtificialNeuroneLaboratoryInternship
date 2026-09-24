@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="1000" height="300" rx="12" fill="#0d1117"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9198a1"/></marker></defs>
+<path d="M26,56 V44 H484 V56" fill="none" stroke="#d95926" stroke-width="1.5"/>
+<text x="255.0" y="34" text-anchor="middle" font-size="14" font-weight="600" fill="#e6edf3">Cadence <tspan font-weight="400" fill="#9198a1">— run once, ≈ 1 day per neuron</tspan></text>
+<path d="M514,56 V44 H972 V56" fill="none" stroke="#3987e5" stroke-width="1.5"/>
+<text x="743.0" y="34" text-anchor="middle" font-size="14" font-weight="600" fill="#e6edf3">MATLAB <tspan font-weight="400" fill="#9198a1">— any I<tspan font-size="75%" dy="3">ex</tspan><tspan dy="-3">​</tspan>, &lt; 1 s</tspan></text>
+<rect x="26" y="78" width="214" height="150" rx="10" fill="#2d1a12" stroke="#30363d"/>
+<circle cx="48" cy="102" r="12" fill="#d95926"/>
+<text x="48" y="107" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">1</text>
+<text x="68" y="107" font-size="15" font-weight="700" fill="#e6edf3">Cadence</text>
+<text x="42" y="196" font-size="12.5" fill="#9198a1">Transistor-level simulation</text>
+<text x="42" y="214" font-size="12.5" fill="#9198a1">of the FS eNeuron circuit</text>
+<rect x="107.0" y="130" width="52" height="36" rx="4" fill="none" stroke="#d95926" stroke-width="2"/>
+<line x1="115.0" y1="124" x2="115.0" y2="130" stroke="#d95926" stroke-width="2"/>
+<line x1="115.0" y1="166" x2="115.0" y2="172" stroke="#d95926" stroke-width="2"/>
+<line x1="127.0" y1="124" x2="127.0" y2="130" stroke="#d95926" stroke-width="2"/>
+<line x1="127.0" y1="166" x2="127.0" y2="172" stroke="#d95926" stroke-width="2"/>
+<line x1="139.0" y1="124" x2="139.0" y2="130" stroke="#d95926" stroke-width="2"/>
+<line x1="139.0" y1="166" x2="139.0" y2="172" stroke="#d95926" stroke-width="2"/>
+<line x1="151.0" y1="124" x2="151.0" y2="130" stroke="#d95926" stroke-width="2"/>
+<line x1="151.0" y1="166" x2="151.0" y2="172" stroke="#d95926" stroke-width="2"/>
+<text x="133.0" y="153" text-anchor="middle" font-size="11" font-weight="600" fill="#d95926">SPICE</text>
+<rect x="270" y="78" width="214" height="150" rx="10" fill="#2d1a12" stroke="#30363d"/>
+<circle cx="292" cy="102" r="12" fill="#d95926"/>
+<text x="292" y="107" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">2</text>
+<text x="312" y="107" font-size="15" font-weight="700" fill="#e6edf3">Dataset</text>
+<text x="286" y="196" font-size="12.5" fill="#9198a1">309 operating points</text>
+<text x="286" y="214" font-size="12.5" fill="#9198a1">I<tspan font-size="75%" dy="3">ex</tspan><tspan dy="-3">​</tspan> → P<tspan font-size="75%" dy="3">rms</tspan><tspan dy="-3">​</tspan>, f<tspan font-size="75%" dy="3">spike</tspan><tspan dy="-3">​</tspan></text>
+<rect x="317.0" y="123" width="120" height="10" fill="#d95926" fill-opacity="0.85" stroke="#30363d"/>
+<rect x="317.0" y="133" width="120" height="10" fill="none" fill-opacity="1" stroke="#30363d"/>
+<rect x="317.0" y="143" width="120" height="10" fill="none" fill-opacity="1" stroke="#30363d"/>
+<rect x="317.0" y="153" width="120" height="10" fill="none" fill-opacity="1" stroke="#30363d"/>
+<rect x="317.0" y="163" width="120" height="10" fill="none" fill-opacity="1" stroke="#30363d"/>
+<line x1="357.0" y1="123" x2="357.0" y2="173" stroke="#30363d"/>
+<line x1="397.0" y1="123" x2="397.0" y2="173" stroke="#30363d"/>
+<rect x="514" y="78" width="214" height="150" rx="10" fill="#11263f" stroke="#30363d"/>
+<circle cx="536" cy="102" r="12" fill="#3987e5"/>
+<text x="536" y="107" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">3</text>
+<text x="556" y="107" font-size="15" font-weight="700" fill="#e6edf3">Polynomial fit</text>
+<text x="530" y="196" font-size="12.5" fill="#9198a1">polyfit, order N = 15</text>
+<text x="530" y="214" font-size="12.5" fill="#9198a1">f(I<tspan font-size="75%" dy="3">ex</tspan><tspan dy="-3">​</tspan>) and P(I<tspan font-size="75%" dy="3">ex</tspan><tspan dy="-3">​</tspan>)</text>
+<path d="M560.0,168.0 L563.0,164.3 L566.1,161.0 L569.1,158.0 L572.2,155.2 L575.2,152.8 L578.3,150.5 L581.4,148.5 L584.4,146.7 L587.5,145.0 L590.5,143.5 L593.5,142.2 L596.6,140.9 L599.6,139.8 L602.7,138.8 L605.8,137.9 L608.8,137.1 L611.9,136.4 L614.9,135.7 L618.0,135.1 L621.0,134.5 L624.0,134.0 L627.1,133.6 L630.1,133.2 L633.2,132.8 L636.2,132.5 L639.3,132.2 L642.4,131.9 L645.4,131.6 L648.5,131.4 L651.5,131.2 L654.5,131.0 L657.6,130.9 L660.6,130.7 L663.7,130.6 L666.8,130.5 L669.8,130.3 L672.9,130.2 L675.9,130.2 L679.0,130.1 L682.0,130.0" fill="none" stroke="#3987e5" stroke-width="2.5"/>
+<circle cx="560.0" cy="165.0" r="3" fill="#d95926"/>
+<circle cx="572.2" cy="152.2" r="3" fill="#d95926"/>
+<circle cx="587.5" cy="148.0" r="3" fill="#d95926"/>
+<circle cx="605.8" cy="140.9" r="3" fill="#d95926"/>
+<circle cx="630.1" cy="136.2" r="3" fill="#d95926"/>
+<circle cx="657.6" cy="127.9" r="3" fill="#d95926"/>
+<circle cx="682.0" cy="127.0" r="3" fill="#d95926"/>
+<rect x="758" y="78" width="214" height="150" rx="10" fill="#11263f" stroke="#30363d"/>
+<circle cx="780" cy="102" r="12" fill="#3987e5"/>
+<text x="780" y="107" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">4</text>
+<text x="800" y="107" font-size="15" font-weight="700" fill="#e6edf3">LIF spike generator</text>
+<text x="774" y="196" font-size="12.5" fill="#9198a1">exponential charge + reset</text>
+<text x="774" y="214" font-size="12.5" fill="#9198a1">→ spike train V(t)</text>
+<path d="M788.0,168.0 L791.1,167.3 L794.2,166.3 L797.2,164.9 L800.3,163.1 L803.4,160.7 L806.5,157.4 L809.6,153.0 L812.6,147.0 L815.7,138.9 L818.8,128.0 L818.8,168 L818.8,168.0 L821.9,167.3 L825.0,166.3 L828.0,164.9 L831.1,163.1 L834.2,160.7 L837.3,157.4 L840.4,153.0 L843.4,147.0 L846.5,138.9 L849.6,128.0 L849.6,168 L849.6,168.0 L852.7,167.3 L855.8,166.3 L858.8,164.9 L861.9,163.1 L865.0,160.7 L868.1,157.4 L871.2,153.0 L874.2,147.0 L877.3,138.9 L880.4,128.0 L880.4,168 L880.4,168.0 L883.5,167.3 L886.6,166.3 L889.6,164.9 L892.7,163.1 L895.8,160.7 L898.9,157.4 L902.0,153.0 L905.0,147.0 L908.1,138.9 L911.2,128.0 L911.2,168 L911.2,168.0 L914.3,167.3 L917.4,166.3 L920.4,164.9 L923.5,163.1 L926.6,160.7 L929.7,157.4 L932.8,153.0 L935.8,147.0 L938.9,138.9 L942.0,128.0 L942.0,168" fill="none" stroke="#3987e5" stroke-width="2"/>
+<line x1="243" y1="153.0" x2="267" y2="153.0" stroke="#9198a1" stroke-width="1.8" marker-end="url(#ah)"/>
+<line x1="487" y1="153.0" x2="511" y2="153.0" stroke="#9198a1" stroke-width="1.8" marker-end="url(#ah)"/>
+<line x1="731" y1="153.0" x2="755" y2="153.0" stroke="#9198a1" stroke-width="1.8" marker-end="url(#ah)"/>
+<path d="M865.0,231 V262 H133.0 V233" fill="none" stroke="#9198a1" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<rect x="284.0" y="249" width="430" height="26" rx="13" fill="#0d1117"/>
+<text x="499.0" y="267" text-anchor="middle" font-size="13" fill="#e6edf3">Validation: MATLAB spike train vs Cadence transient at I<tspan font-size="75%" dy="3">ex</tspan><tspan dy="-3">​</tspan> = 30 pA</text>
+</svg>
